@@ -658,7 +658,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "BST"
@@ -710,6 +710,121 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -785,6 +900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9d8f10c-1ed9-4447-a4d8-a4e336e236ed")
+	)
+	(junction
+		(at 165.1 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3bd6984-b091-4978-92a0-e31814fb925f")
 	)
 	(junction
 		(at 90.17 119.38)
@@ -948,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 170.18 73.66)
+			(xy 161.29 73.66) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0.4361)
@@ -1005,6 +1126,16 @@
 			(type default)
 		)
 		(uuid "6489c606-af57-41ef-89e4-5545cb45b7af")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dcdabf-73e2-49c7-aa0d-cbe8c4f1f93a")
 	)
 	(wire
 		(pts
@@ -1198,6 +1329,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0.4361)
+			(type default)
+		)
+		(uuid "d88ab5a3-fb9f-4646-86f5-0a54642c47ff")
+	)
+	(wire
+		(pts
 			(xy 128.27 73.66) (xy 140.97 73.66)
 		)
 		(stroke
@@ -1266,17 +1407,6 @@
 		)
 		(uuid "ff3b5b4a-6410-4c0d-9231-3df94028f96f")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 7.8585 3.3052 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ea83a1f-46be-4495-bdc7-c0e475997784")
-	)
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 170.18 73.66 0)
@@ -1287,17 +1417,6 @@
 			(justify left)
 		)
 		(uuid "4153624e-46ac-4927-a482-0d499e6f9c2e")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 5.3185 0.7652 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91b848a3-c9cf-4e30-88db-5e21870df7e6")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -1339,7 +1458,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 176.53 125.73) (xy 176.53 68.58) (xy 125.73 68.58) (xy 125.73 74.93) (xy 134.62 74.93) (xy 134.62 90.17)
+				(xy 176.53 125.73) (xy 176.53 64.77) (xy 125.73 64.77) (xy 125.73 74.93) (xy 134.62 74.93) (xy 134.62 90.17)
 				(xy 134.62 90.17) (xy 134.62 91.44) (xy 29.21 91.44) (xy 29.21 91.44) (xy 29.21 91.44) (xy 29.21 113.03)
 				(xy 16.51 113.03) (xy 16.51 125.73)
 			)
@@ -2062,6 +2181,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 165.1 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b8a63ce-10a5-42b0-944b-af2860e1c323")
+		(property "Reference" "#FLG0401"
+			(at 165.1 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 165.1 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6459b7d6-f75f-483e-adab-76f0a37d3b70")
+		)
+		(instances
+			(project "Feeder"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/224f8fc3-c1bb-4d94-8c49-0c22b3162449"
+					(reference "#FLG0401")
+					(unit 1)
+				)
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/2cdcb2ed-6c79-4c75-8125-df08284f401a"
+					(reference "#FLG0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 116.84 82.55 90)
 		(unit 1)
@@ -2434,7 +2634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
 			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
