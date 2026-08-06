@@ -16,47 +16,47 @@
 )
 (rule "IPC2221 A6 Pads SWN1/PGND"
 	(layer outer)
-	(constraint clearance (min 2.415mm))
+	(constraint clearance (min 0.8mm))
 	(condition "A.hasNetclass('SWN1') && A.Type == 'Pad' && B.hasNetclass('PGND') && B.Type == 'Pad'")
 )
 (rule "IPC2221 A6 Pads SWN1/HS"
 	(layer outer)
-	(constraint clearance (min 2.415mm))
+	(constraint clearance (min 0.8mm))
 	(condition "A.hasNetclass('SWN1') && A.Type == 'Pad' && B.hasNetclass('IBUS') && B.Type == 'Pad'")
 )
 (rule "IPC2221 B4 Tracks SWN1/PGND"
 	(layer outer)
-	(constraint clearance (min 1.715mm))
+	(constraint clearance (min 0.4mm))
 	(condition "A.hasNetclass('SWN1') && B.hasNetclass('PGND') && (A.Type == 'Track' || A.Type == 'Zone' || A.Type == 'Via' || A.Type == 'Pad') && (B.Type == 'Track' || B.Type == 'Zone' || B.Type == 'Via')")
 )
 (rule "IPC2221 B4 Tracks SWN1/HS"
 	(layer outer)
-	(constraint clearance (min 1.715mm))
+	(constraint clearance (min 0.4mm))
 	(condition "A.hasNetclass('SWN') && B.hasNetclass('IBUS') && (A.Type == 'Track' || A.Type == 'Zone' || A.Type == 'Via') && (B.Type == 'Track' || B.Type == 'Zone' || B.Type == 'Via')")
 )
 (rule "IPC2221 B4 Tracks HS/PGND"
 	(layer outer)
-	(constraint clearance (min 1.715mm))
+	(constraint clearance (min 0.4mm))
 	(condition "A.hasNetclass('IBUS') && B.hasNetclass('PGND') && (A.Type == 'Track' || A.Type == 'Zone' || A.Type == 'Via' || A.Type == 'Pad') && (B.Type == 'Track' || B.Type == 'Zone' || B.Type == 'Via' || B.Type == 'Pad')")
 )
 (rule "IPC2221 A6 Pads HS/PGND"
 	(layer outer)
-	(constraint clearance (min 2.415mm))
+	(constraint clearance (min 0.8mm))
 	(condition "A.hasNetclass('IBUS') && A.Type == 'Pad' && B.hasNetclass('PGND') && B.Type == 'Pad'")
 )
 (rule "IPC2221 B1 Tracks SWN/PGND"
 	(layer inner)
-	(constraint clearance (min 1mm))
+	(constraint clearance (min 0.2mm))
 	(condition "A.hasNetclass('SWN') && B.hasNetclass('PGND') && (A.Type == 'Track' || A.Type == 'Zone' || A.Type == 'Via' || A.Type == 'Pad') && (B.Type == 'Track' || B.Type == 'Zone' || B.Type == 'Via')")
 )
 (rule "IPC2221 B1 Tracks SWN1/HS"
 	(layer inner)
-	(constraint clearance (min 1mm))
+	(constraint clearance (min 0.2mm))
 	(condition "A.hasNetclass('SWN1') && B.hasNetclass('IBUS') && (A.Type == 'Track' || A.Type == 'Zone' || A.Type == 'Via' || A.Type == 'Pad') && (B.Type == 'Track' || B.Type == 'Zone' || B.Type == 'Via')")
 )
 (rule "IPC2221 B1 Tracks HS/PGND"
 	(layer inner)
-	(constraint clearance (min 1mm))
+	(constraint clearance (min 0.2mm))
 	(condition "A.hasNetclass('IBUS') && B.hasNetclass('PGND') && (A.Type == 'Track' || A.Type == 'Zone' || A.Type == 'Via' || A.Type == 'Pad') && (B.Type == 'Track' || B.Type == 'Zone' || B.Type == 'Via')")
 )
 (rule "60664 DGND/PGND"

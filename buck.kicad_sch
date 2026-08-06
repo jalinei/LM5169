@@ -516,7 +516,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5169.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -622,7 +622,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 12.7 -13.97 180)
 					(length 2.54)
 					(name "FB"
@@ -640,7 +640,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 12.7 -19.05 180)
 					(length 2.54)
 					(name "PGOOD"
@@ -676,7 +676,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 12.7 10.16 180)
 					(length 2.54)
 					(name "SW"
@@ -694,9 +694,43 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "VIN max: 120V"
+		(exclude_from_sim no)
+		(at 48.006 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68e96fce-20d4-4c07-9e5b-eef456b9ec20")
+	)
+	(junction
+		(at 67.31 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a086252-9a46-40b5-96e5-96237084badb")
 	)
 	(junction
 		(at 38.1 119.38)
@@ -874,6 +908,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 119.38) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0.45)
+			(type default)
+		)
+		(uuid "4825b9e4-3a32-4f71-bc39-3586d6913a65")
+	)
+	(wire
+		(pts
 			(xy 120.65 82.55) (xy 125.73 82.55)
 		)
 		(stroke
@@ -954,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 90.17 119.38)
+			(xy 50.8 119.38) (xy 67.31 119.38)
 		)
 		(stroke
 			(width 0.45)
@@ -1091,6 +1135,16 @@
 			(type default)
 		)
 		(uuid "a89de5e7-b1f0-41f3-a78b-735267a84c2d")
+	)
+	(wire
+		(pts
+			(xy 67.31 109.22) (xy 67.31 119.38)
+		)
+		(stroke
+			(width 0.45)
+			(type default)
+		)
+		(uuid "b88453f7-e44d-4410-9ae1-e6954bc12dfa")
 	)
 	(wire
 		(pts
@@ -1382,16 +1436,16 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 166.37 125.73 0)
+		(at 19.05 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ba26407c-9470-4203-a14d-2d898f93af70")
+		(uuid "8b8015b0-196e-4644-bf2a-6f1171e91886")
 		(property "Netclass" "PGND"
-			(at 166.9796 123.19 0)
+			(at 19.6596 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1402,7 +1456,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 90.17 35.56 0)
+			(at -57.15 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1502,7 +1556,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 125.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1610,7 +1664,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 147.32 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1718,7 +1772,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1836,7 +1890,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 133.35 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1944,7 +1998,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 147.32 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2061,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 116.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2179,7 +2233,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 90.17 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2286,7 +2340,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 161.29 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2380,7 +2434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
 			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2391,7 +2445,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5169.pdf"
 			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2436,6 +2490,9 @@
 		)
 		(pin "8"
 			(uuid "103bdd13-67f4-435c-8a87-27a113e554d5")
+		)
+		(pin "9"
+			(uuid "36073dfc-34d4-4146-aea7-b367547c3ddb")
 		)
 		(instances
 			(project "Feeder"
@@ -2503,7 +2560,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 124.46 73.66 0)
 			(hide yes)
 			(show_name no)

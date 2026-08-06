@@ -11023,7 +11023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5169.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11129,7 +11129,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 12.7 -13.97 180)
 				(length 2.54)
 				(name "FB"
@@ -11147,7 +11147,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 12.7 -19.05 180)
 				(length 2.54)
 				(name "PGOOD"
@@ -11183,7 +11183,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "SW"
@@ -11194,6 +11194,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -25.4 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
