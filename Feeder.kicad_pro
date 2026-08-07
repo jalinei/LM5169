@@ -52,8 +52,8 @@
         "zones": {
           "45_degree_only": false,
           "border_display_style": 2,
-          "border_hatch_pitch": 1.0,
-          "corner_radius": 1.0,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -65,8 +65,8 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.5,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.1,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -962,8 +962,15 @@
       "/+5V_{PGND}": [
         "PGND"
       ],
-      "/12V_P_0": [
+      "/12V_DIGI_TO_POWER": [
+        "isolated"
+      ],
+      "/12V_PWR_BUS": [
         "PGND"
+      ],
+      "/12V_P_0": [
+        "PGND",
+        "isolated"
       ],
       "/ALERT_T1": [
         "PGND"
@@ -1331,11 +1338,20 @@
       "/buck/VOUT": [
         "PGND"
       ],
+      "/buck/~{EN}": [
+        "isolated"
+      ],
       "/buck1/VOUT": [
         "PGND"
       ],
       "/dc-dc_12-6/VOUT": [
         "PGND"
+      ],
+      "/dc-dc_isolated/VIN": [
+        "isolated"
+      ],
+      "/dc-dc_isolated_disabling/VOUT": [
+        "isolated"
       ],
       "/~{STBY1}_DGND": [
         "DGND"
@@ -1347,7 +1363,7 @@
         "DGND"
       ],
       "DGND": [
-        "DGND"
+        "isolated"
       ],
       "Earth_Protective": [
         "DGND"
@@ -1429,6 +1445,18 @@
       "Net-(C822-Pad2)": [
         "IBUS",
         "PGND"
+      ],
+      "Net-(D201-A)": [
+        "isolated"
+      ],
+      "Net-(D202-A)": [
+        "isolated"
+      ],
+      "Net-(D301-A)": [
+        "isolated"
+      ],
+      "Net-(D302-A)": [
+        "isolated"
       ],
       "Net-(D403-A)": [
         "DGND"
@@ -1515,13 +1543,13 @@
         "PGND"
       ],
       "Net-(D801-A)": [
-        "PGND"
+        "isolated"
       ],
       "Net-(D801-K)": [
         "PGND"
       ],
       "Net-(D802-A)": [
-        "IBUS"
+        "isolated"
       ],
       "Net-(D802-K)": [
         "IBUS"
@@ -1622,6 +1650,18 @@
       "Net-(PS501-+Vin)": [
         "DGND"
       ],
+      "Net-(Q201-D)": [
+        "isolated"
+      ],
+      "Net-(Q301-D)": [
+        "isolated"
+      ],
+      "Net-(Q401-D)": [
+        "IBUS"
+      ],
+      "Net-(Q501-D)": [
+        "IBUS"
+      ],
       "Net-(Q502-G)": [
         "PGND"
       ],
@@ -1682,6 +1722,18 @@
       "Net-(TJ806-Pin2)": [
         "PGND"
       ],
+      "Net-(U201-CLK)": [
+        "isolated"
+      ],
+      "Net-(U201-VCC)": [
+        "isolated"
+      ],
+      "Net-(U201-VD1)": [
+        "isolated"
+      ],
+      "Net-(U201-VD2)": [
+        "isolated"
+      ],
       "Net-(U201-VOUTN)": [
         "DGND"
       ],
@@ -1702,6 +1754,18 @@
       ],
       "Net-(U204--)": [
         "DGND"
+      ],
+      "Net-(U301-CLK)": [
+        "isolated"
+      ],
+      "Net-(U301-VCC)": [
+        "isolated"
+      ],
+      "Net-(U301-VD1)": [
+        "isolated"
+      ],
+      "Net-(U301-VD2)": [
+        "isolated"
       ],
       "Net-(U401-BST)": [
         "SWN1"
@@ -1916,6 +1980,12 @@
       "Net-(U801-BST)": [
         "PGND"
       ],
+      "Net-(U801-CLK)": [
+        "isolated"
+      ],
+      "Net-(U801-EN)": [
+        "isolated"
+      ],
       "Net-(U801-EN{slash}UVLO)": [
         "IBUS"
       ],
@@ -1927,6 +1997,12 @@
       ],
       "Net-(U801-SW)": [
         "PGND"
+      ],
+      "Net-(U801-VD1)": [
+        "isolated"
+      ],
+      "Net-(U801-VD2)": [
+        "isolated"
       ],
       "Net-(U801-VIN)": [
         "PGND"
@@ -1980,7 +2056,8 @@
         "DGND"
       ],
       "PGND": [
-        "PGND"
+        "PGND",
+        "isolated"
       ],
       "VRef_DGND": [
         "DGND"
@@ -2048,6 +2125,36 @@
       "unconnected-(T502-Pad8)": [
         "PGND"
       ],
+      "unconnected-(TR201-NC-Pad2)": [
+        "isolated"
+      ],
+      "unconnected-(TR201-NC-Pad3)": [
+        "isolated"
+      ],
+      "unconnected-(TR301-NC-Pad2)": [
+        "isolated"
+      ],
+      "unconnected-(TR301-NC-Pad3)": [
+        "isolated"
+      ],
+      "unconnected-(TR801-NC-Pad2)": [
+        "isolated"
+      ],
+      "unconnected-(TR801-NC-Pad3)": [
+        "isolated"
+      ],
+      "unconnected-(U201-NC-Pad6)": [
+        "isolated"
+      ],
+      "unconnected-(U201-NC-Pad7)": [
+        "isolated"
+      ],
+      "unconnected-(U301-NC-Pad6)": [
+        "isolated"
+      ],
+      "unconnected-(U301-NC-Pad7)": [
+        "isolated"
+      ],
       "unconnected-(U603-NC-Pad12)": [
         "PGND"
       ],
@@ -2083,6 +2190,12 @@
       ],
       "unconnected-(U709-CLK-Pad3)": [
         "PGND"
+      ],
+      "unconnected-(U801-NC-Pad6)": [
+        "isolated"
+      ],
+      "unconnected-(U801-NC-Pad7)": [
+        "isolated"
       ],
       "unconnected-(U803-NC-Pad12)": [
         "PGND"
@@ -2489,7 +2602,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Downloads/v1.2_feeder_caps.step",
+      "step": "../../../Downloads/v2.2_feeder_caps.step",
       "svg": "",
       "vrml": "../../../3D_Models/Main_Module/ownverter_v1-1-1.wrl"
     },
@@ -2733,7 +2846,7 @@
         "uuid": "8d0c1d66-35ef-4a53-a28f-436a11b54f42"
       }
     ],
-    "used_designators": "#FLG101-105,#FLG201,#FLG301,#FLG401,#FLG501,#FLG601,#FLG701,H101-108,H801-815,R1-6,R101,R201-202,R213-279,R301-302,R401-404,R501-508,R520-533,R601-602,R701-702,R710-723,R810-821,R824-859,TJ801-806,J1-2,J101-104,J802-833,J901-902,D201-202,D301-302,D508-509,D703-714,D803-808,#PWR1-4,#PWR7-8,#PWR17-22,#PWR38-39,#PWR90-190,#PWR222-244,#PWR509-510,#PWR529,#PWR536,#PWR618-664,#PWR705-710,#PWR712-716,#PWR718-728,#PWR730-734,#PWR801-802,#PWR806,#PWR808,#PWR812-817,#PWR820-822,#PWR824-830,#PWR834-839,#PWR841,#PWR901-902,#PWR905,#PWR910-912,C101-119,C201-232,C301-304,C401-404,C414-415,C492-499,C501-504,C527,C529-550,C601-603,C701-703,C706,C708-721,C728-756,C801-813,C817-821,C828-835,U1-3,U101,U201,U205-210,U301,U401,U501,U506,U601,U701-727,U801-838,K801,T502-503,CBWF801-821,JP502,RGF801-824,Q603-605,F202-205,F401,CSTAB801-815,N801,TR1-3,TR201,TR301,TR701-706,TP701,TP703-714,TP801-848,L101,L201,L301,L401,L501,L504-510,L601,L701-709,L801-806",
+    "used_designators": "#FLG101-106,#FLG201,#FLG301,#FLG401,#FLG501,#FLG601,#FLG701,#FLG801,#FLG901,#FLG1001,H101-108,H801-815,R1-6,R101-111,R201-204,R213-279,R301-304,R401-408,R501-508,R520-533,R601-602,R701-702,R710-723,R801-804,R810-821,R824-859,R901-908,R1001-1004,TJ801-806,J1-2,J101-104,J802-833,J901-902,D101-103,D201-202,D301-302,D508-509,D703-714,D801-808,D901-902,D1001-1002,#PWR1-4,#PWR7-8,#PWR17-22,#PWR38-39,#PWR90-190,#PWR222-244,#PWR509-510,#PWR529,#PWR536,#PWR618-664,#PWR705-710,#PWR712-716,#PWR718-728,#PWR730-734,#PWR801-802,#PWR806,#PWR808,#PWR812-817,#PWR820-822,#PWR824-830,#PWR834-839,#PWR841,#PWR901-902,#PWR905,#PWR910-912,C101-120,C201-232,C301-304,C401-404,C414-415,C492-499,C501-504,C527,C529-550,C601-603,C701-703,C706,C708-721,C728-756,C801-813,C817-821,C828-835,C901-904,C1001-1004,U1-3,U101-103,U201,U205-210,U301,U401,U501,U506,U601,U701-727,U801-838,U901,U1001,K801,T502-503,CBWF801-821,JP101-105,JP502,RGF801-824,Q101-102,Q201,Q301,Q401,Q501,Q603-605,Q801,Q901-905,Q1001,F202-205,F401,CSTAB801-815,N801,TR1-3,TR201,TR301,TR701-706,TR801,TR901,TR1001,TP701,TP703-714,TP801-848,L101,L201,L301,L401,L501,L504-510,L601,L701-709,L801-806,L901,L1001",
     "variants": [
       {
         "name": "TO-252"
@@ -2749,12 +2862,12 @@
       "Feeder"
     ],
     [
-      "e156698f-e6e2-4e2e-a060-ba71eca2a1f2",
-      "dc-dc_isolated"
+      "63ed51d3-a276-4aa0-a11a-1d4db201777e",
+      "dc-dc_isolated_disabling"
     ],
     [
-      "0f88d378-7a6f-43ae-9bce-271f551b7098",
-      "dc-dc_isolated1"
+      "93c29a9c-0825-4dfe-a4e9-9af78c29022c",
+      "dc-dc_isolated_disabling1"
     ],
     [
       "224f8fc3-c1bb-4d94-8c49-0c22b3162449",
@@ -2771,6 +2884,14 @@
     [
       "80c75c33-7ca5-47fa-98cc-678becbdce40",
       "dc-dc_12-6"
+    ],
+    [
+      "4b7f6dc3-fdc4-453e-82fe-d92564a8e788",
+      "dc-dc_isolated"
+    ],
+    [
+      "7af594cd-5ead-4186-b56d-90522ddf9e09",
+      "Ideal Diolde"
     ]
   ],
   "text_variables": {},
