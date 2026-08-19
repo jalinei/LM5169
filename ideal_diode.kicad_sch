@@ -1565,6 +1565,61 @@
 		)
 		(uuid "c1aeb249-3838-49e7-a1c0-01ffdd57ac8e")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 27.94 36.83) (xy 27.94 135.89) (xy 148.59 135.89) (xy 148.59 36.83)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 194 1)
+			)
+			(fill
+				(type color)
+				(color 0 0 194 0.1019607843)
+			)
+			(uuid "cffdc27e-b1fc-4bda-87d3-b34f9f016f53")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 34.29 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4759d3fe-5e2a-4dac-be19-eeba9a7ccaba")
+		(property "Netclass" "PGND"
+			(at 34.8996 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -41.91 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 80.01 58.42 90)
@@ -2573,7 +2628,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a19a3b2-310a-4ca8-b94f-b62e699b9c6f")
+			(uuid "9a19a3b2-310a-4ca8-b94f-b62e699b9c70")
 		)
 		(pin "5"
 			(uuid "4f849669-1d4a-46df-8880-94f298bfbe2a")
@@ -2585,10 +2640,10 @@
 			(uuid "cbeed718-f8dc-44af-a954-c6293eebad6a")
 		)
 		(pin "2"
-			(uuid "1e5730a8-5137-4d36-b09d-308992828a76")
+			(uuid "1e5730a8-5137-4d36-b09d-308992828a77")
 		)
 		(pin "6"
-			(uuid "a00566fb-546e-495b-a6c3-d257d8867f76")
+			(uuid "a00566fb-546e-495b-a6c3-d257d8867f77")
 		)
 		(instances
 			(project "Feeder"
@@ -2669,13 +2724,13 @@
 			(uuid "10693833-b3b6-4cb3-bb73-c6fcfc67b14b")
 		)
 		(pin "5"
-			(uuid "50b08030-f53a-4269-aa52-f378e8f01ff5")
+			(uuid "50b08030-f53a-4269-aa52-f378e8f01ff6")
 		)
 		(pin "4"
-			(uuid "013c5a2c-9be2-4a27-ac60-09bce078e7fc")
+			(uuid "013c5a2c-9be2-4a27-ac60-09bce078e7fd")
 		)
 		(pin "3"
-			(uuid "e6e4f9fc-0f81-432b-b077-ac59390d4d97")
+			(uuid "e6e4f9fc-0f81-432b-b077-ac59390d4d98")
 		)
 		(pin "2"
 			(uuid "ac414b02-5090-4c9c-af3c-58c74d8ac255")
