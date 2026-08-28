@@ -972,6 +972,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Ideal diode Sim: https://www.falstad.com/s.php?s=IzNsWF"
+		(exclude_from_sim no)
+		(at 85.344 140.462 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60cba6ef-21ef-4a94-9c81-fa2250b6f02e")
+	)
 	(junction
 		(at 69.85 55.88)
 		(diameter 0)
