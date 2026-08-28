@@ -3723,7 +3723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C37648313.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.11.xh&lcsc_vid=QwRbXgIFRlIKA1VWTgQLVlNTQ1IMUwZXQQBfAwJTQ1UxVlNeQlJaV1dVRFheVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRFZbSQwSGg0%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C37648313.pdf"
 			(at 139.7 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -3922,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C88173.pdf"
 			(at 41.91 33.02 0)
 			(hide yes)
 			(show_name no)

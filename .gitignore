@@ -29,3 +29,5 @@ fp-info-cache
 .history/
 *.kicad_lck
 *.kicad_pro.lck
+
+*.kicad_*.lck
