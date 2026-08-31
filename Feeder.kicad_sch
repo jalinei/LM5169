@@ -3368,6 +3368,17 @@
 		)
 		(uuid "07b7ea9d-4507-4fb8-b3bd-380663df5ba9")
 	)
+	(text "I_LED = (12 - Vf) / 2200\n\nFor Vf = 2,7 V :\nI_LED = 9,3 / 2200 = 4,23 mA\n\nFor Vf = 3,2 V :\nI_LED = 8,8 / 2200 = 4,00 mA"
+		(exclude_from_sim no)
+		(at 193.548 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a9951d1-f61f-43a2-8786-ac8e218e5314")
+	)
 	(text "isolated"
 		(exclude_from_sim no)
 		(at 130.81 20.574 0)
@@ -3537,7 +3548,7 @@
 	)
 	(text "     Lights up when \n<-  ~{EN} is LOW\n     (enabled)"
 		(exclude_from_sim no)
-		(at 108.712 207.772 0)
+		(at 110.744 202.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7844,7 +7855,18 @@
 				)
 			)
 		)
-		(property "Reserved1" "0033a278416cfa2b888d35575b40f177dfa85dffb5a098"
+		(property "Reserved1" ""
+			(at 86.36 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 86.36 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10691,7 +10713,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 182.88 197.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10734,7 +10756,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906899"
+		(property "LCSC" ""
 			(at 179.07 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -11814,7 +11836,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 161.29 197.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +11879,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906899"
+		(property "LCSC" ""
 			(at 157.48 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -12662,7 +12684,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2906899"
+		(property "LCSC" ""
 			(at 102.87 194.31 90)
 			(hide yes)
 			(show_name no)
