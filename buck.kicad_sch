@@ -2959,7 +2959,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 17.78 77.47) (xy 68.58 77.47) (xy 68.58 74.93) (xy 129.54 74.93) (xy 129.54 82.55) (xy 157.48 82.55)
+				(xy 17.78 77.47) (xy 68.58 77.47) (xy 68.58 69.85) (xy 129.54 69.85) (xy 129.54 82.55) (xy 157.48 82.55)
 				(xy 157.48 57.15) (xy 17.78 57.15)
 			)
 			(stroke
@@ -2998,7 +2998,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 80.01 74.93 0)
+		(at 80.01 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3007,7 +3007,7 @@
 		)
 		(uuid "2d236b11-2ae8-414f-b3ed-9f55b83617b1")
 		(property "Netclass" "IBUS"
-			(at 79.4004 72.39 0)
+			(at 79.4004 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3018,7 +3018,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 160.02 16.51 0)
+			(at 160.02 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7722,10 +7722,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eda3a08d-afd9-414d-b65f-cef53e31a8ed")
 		(property "Reference" "R406"
-			(at 111.76 68.5799 0)
+			(at 111.76 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7736,7 +7735,7 @@
 			)
 		)
 		(property "Value" "499k"
-			(at 111.76 71.1199 0)
+			(at 111.76 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
