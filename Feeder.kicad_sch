@@ -7843,7 +7843,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 80.01 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -8281,7 +8281,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual 4A ideal-diode ORing, integrated MOSFET"
+		(property "Description" "28mΩ 2 SOP-8L OR Controllers, Ideal Diodes"
 			(at 144.78 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8392,7 +8392,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 158.75 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -8496,7 +8496,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 166.37 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -8599,7 +8599,7 @@
 				)
 			)
 		)
-		(property "Description" "Y Safety capacitor"
+		(property "Description" "470pF ±10% 500V Safety Capacitor Y1 SMD,8.1x6mm"
 			(at 264.16 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9001,7 +9001,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 151.13 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -9195,7 +9195,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "-55℃~+155℃ 100mW 2.2MΩ 75V Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount RoHS"
 			(at 55.88 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9299,7 +9299,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 271.78 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -9370,7 +9370,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "CT-1005UBC-P4"
 			(at 61.722 217.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,7 +9403,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "120° 30mcd~70mcd Blue 5mA 2.7V~3.1V 0.8mm x 0.5mm square LED 462.5nm~470nm 0402 LED Indication - Discrete"
 			(at 63.5 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -9551,7 +9551,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "PZ254V-21-03-A60-1500"
 			(at 266.7 200.6601 0)
 			(hide yes)
 			(show_name no)
@@ -9585,7 +9585,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "Through Hole 1 2.54mm Square pin 3A 6mm 6mm 3P -40℃~+105℃ 3mm Black 1x3P Through Hole,P=2.54mm Headers, Male Pins RoHS"
 			(at 265.43 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10015,7 +10015,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "470nF ±10% 100V Ceramic Capacitor X7R 0805"
 			(at 52.07 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10209,7 +10209,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 207.01 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -10558,7 +10558,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 256.54 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -11071,7 +11071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "CT-1005UBC-P4"
 			(at 126.238 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11104,7 +11104,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "120° 30mcd~70mcd Blue 5mA 2.7V~3.1V 0.8mm x 0.5mm square LED 462.5nm~470nm 0402 LED Indication - Discrete"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11362,7 +11362,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "-55℃~+155℃ 100mW 2.2MΩ 75V Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount RoHS"
 			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11618,7 +11618,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "2.2kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at 146.05 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -11766,7 +11766,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "XBLW 24C02S(XBLW)"
+		(property "Value" "24C02S(XBLW)"
 			(at 281.178 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11799,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Description" "I2C Serial EEPROM, 2Kb (256x8) with Unique Serial Number, SOT-23-5"
+		(property "Description" "2Kbit 1MHz I2C SOT23-5 Memory RoHS"
 			(at 303.53 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11989,7 +11989,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 199.39 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -12647,7 +12647,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 173.99 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -12917,7 +12917,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "2.2kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at 124.46 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -13064,7 +13064,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "CT-1005UBC-P4"
 			(at 147.828 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13097,7 +13097,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "120° 30mcd~70mcd Blue 5mA 2.7V~3.1V 0.8mm x 0.5mm square LED 462.5nm~470nm 0402 LED Indication - Discrete"
 			(at 146.05 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -13369,7 +13369,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "470nF ±10% 100V Ceramic Capacitor X7R 0805"
 			(at 52.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13593,7 +13593,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "PZ254V-22-06-A60-1500"
 			(at 358.14 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13626,7 +13626,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Through Hole 2 2.54mm Square pin 3A 3mm 6mm 6P -40℃~+105℃ 6mm Black 2x3P 2.54mm Through Hole,P=2.54mm Headers, Male Pins RoHS"
 			(at 359.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13819,7 +13819,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 248.92 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -13997,7 +13997,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "2.2kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at 63.5 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -14655,7 +14655,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 222.25 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -14833,7 +14833,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
 			(at 314.96 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14937,7 +14937,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 214.63 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -15314,7 +15314,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "22uF ±20% 160V Aluminum Electrolytic Capacitors 10000hrs@105℃"
 			(at 264.16 259.08 0)
 			(hide yes)
 			(show_name no)

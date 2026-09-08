@@ -3205,7 +3205,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "56pF ±5% 50V Ceramic Capacitor C0G 0805"
 			(at 220.98 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3312,7 +3312,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22uF ±20% 25V Ceramic Capacitor X5R 0805"
 			(at 262.89 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3420,7 +3420,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "49.9kΩ ±1% 125mW 0805 Thick Film Resistor"
 			(at 242.57 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3528,7 +3528,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100kΩ ±5% 100mW 0603 Thick Film Resistor"
 			(at 138.43 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3635,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "3.3nF ±5% 50V Ceramic Capacitor C0G 0805"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +3743,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "453kΩ ±1% 125mW 0805 Thick Film Resistor"
 			(at 242.57 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3853,7 +3853,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "N-Channel 60V 115mA 0.225W Surface Mount SOT-23"
 			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4044,7 +4044,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "-55℃~+155℃ 100mW 2.2MΩ 75V Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount RoHS"
 			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4151,7 +4151,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF ±10% 100V Ceramic Capacitor X7R 1206"
 			(at 48.26 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4258,7 +4258,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF ±10% 100V Ceramic Capacitor X7R 1206"
 			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4364,7 +4364,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "301kΩ ±1% 125mW 0805 Thick Film Resistor"
 			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4469,7 +4469,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "1.2A 10uH ±20% 900mA 500mΩ Molded inductor 1008 Fixed Inductors RoHS"
 			(at 35.56 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4576,7 +4576,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "2.2nF ±5% 50V Ceramic Capacitor C0G 0805"
 			(at 185.42 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4683,7 +4683,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "22uF ±20% 25V Ceramic Capacitor X5R 0805"
 			(at 254 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4790,7 +4790,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF ±10% 100V Ceramic Capacitor X7R 1206"
 			(at 55.88 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4895,7 +4895,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Step-down type 1MHz Adjustable 650mA SOP-8-EP Voltage Regulators - DC DC Switching Regulators RoHS"
 			(at 162.56 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5102,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "940mA 220uH ±20% 500mΩ Magnetic Shielded Inductor SMD,10.5x10.19mm Fixed Inductors"
 			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5210,7 +5210,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "499kΩ ±1% 125mW 0805 Thick Film Resistor"
 			(at 109.22 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5317,7 +5317,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF ±10% 100V Ceramic Capacitor X7R 1206"
 			(at 48.26 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5425,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "143kΩ ±1% 125mW 0805 Thick Film Resistor"
 			(at 109.22 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5532,7 +5532,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "499kΩ ±1% 125mW 0805 Thick Film Resistor"
 			(at 109.22 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5639,7 +5639,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "-55℃~+155℃ 100mW 2.2MΩ 75V Thick Film Resistor ±200ppm/℃ ±5% 0603 Chip Resistor - Surface Mount RoHS"
 			(at 60.96 77.47 0)
 			(hide yes)
 			(show_name no)

@@ -1501,7 +1501,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "10kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1604,7 +1604,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "47uF ±20% 10V Ceramic Capacitor X5R 1206"
 			(at 124.46 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1674,7 +1674,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS562202"
+		(property "Value" "TPS562202DRLR"
 			(at 78.74 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1707,7 +1707,7 @@
 				)
 			)
 		)
-		(property "Description" "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563"
+		(property "Description" "Buck Switching Regulator IC Adjustable 0.804V~7V 1 Output 2A SOT-6(3x5)"
 			(at 78.74 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1834,7 +1834,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF ±10% 50V Ceramic Capacitor X5R 0805"
 			(at 53.34 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1935,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "2.2A 4.7uH ±20% 126mΩ 3A Molded inductor SMD,4.6x4.1mm Fixed Inductors RoHS"
 			(at 107.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2036,7 +2036,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
 			(at 93.98 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2140,7 +2140,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "56kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 114.3 90.17 0)
 			(hide yes)
 			(show_name no)
