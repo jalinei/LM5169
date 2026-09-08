@@ -3969,6 +3969,12 @@
 		(uuid "392645f8-8928-48e0-840d-2b7414c9f6b9")
 	)
 	(junction
+		(at 264.16 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "431123b1-535e-4b81-92ee-e754dfc639d7")
+	)
+	(junction
 		(at 137.16 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4015,6 +4021,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "673bbe2a-d66d-4409-bd73-67dc458f5162")
+	)
+	(junction
+		(at 132.08 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "698412c3-5435-4427-a6e0-8b9195067aa6")
 	)
 	(junction
 		(at 162.56 158.75)
@@ -4065,6 +4077,12 @@
 		(uuid "87afc929-35b0-45be-b1ba-56ad6e28f0d6")
 	)
 	(junction
+		(at 205.74 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "890b85ee-c8f5-4c39-8785-159c621b1300")
+	)
+	(junction
 		(at 264.16 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4081,6 +4099,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acb19867-f8ab-4f62-b385-3a2f869e1a53")
+	)
+	(junction
+		(at 378.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad46c8bb-f319-4c7d-bad9-f97d32350472")
 	)
 	(junction
 		(at 256.54 252.73)
@@ -5084,6 +5108,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 140.97) (xy 132.08 157.48)
+		)
+		(stroke
+			(width 0.45)
+			(type default)
+		)
+		(uuid "4539a674-817b-443b-bdcb-42ddf03b8767")
+	)
+	(wire
+		(pts
 			(xy 166.37 158.75) (xy 175.26 158.75)
 		)
 		(stroke
@@ -5342,6 +5376,16 @@
 		)
 		(uuid "5b49119e-61a5-474b-ab47-cda21c67be3a")
 	)
+	(wire
+		(pts
+			(xy 378.46 116.84) (xy 381 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b735fb8-292d-4102-8380-676bdc9f544a")
+	)
 	(polyline
 		(pts
 			(xy 86.36 66.04) (xy 88.9 68.58)
@@ -5351,16 +5395,6 @@
 			(type default)
 		)
 		(uuid "5bdd6d23-c90f-479a-bc3c-a665ddc31e2c")
-	)
-	(wire
-		(pts
-			(xy 337.82 121.92) (xy 351.79 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c14b6fd-3578-4781-bd2b-ffe4aa924ab7")
 	)
 	(wire
 		(pts
@@ -5494,7 +5528,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 116.84) (xy 375.92 116.84)
+			(xy 364.49 121.92) (xy 375.92 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5862,6 +5896,16 @@
 		)
 		(uuid "7d5b1bf3-b3a9-4878-9286-48b1d11b450f")
 	)
+	(wire
+		(pts
+			(xy 381 115.57) (xy 381 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd58936-69b8-48dc-b79e-89d7b5ce4f25")
+	)
 	(polyline
 		(pts
 			(xy 309.88 39.37) (xy 325.12 39.37)
@@ -6144,7 +6188,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 121.92) (xy 381 121.92)
+			(xy 364.49 116.84) (xy 378.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6234,7 +6278,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 132.08) (xy 264.16 143.51)
+			(xy 264.16 132.08) (xy 264.16 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6374,6 +6418,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 115.57) (xy 340.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb9b7f0-7218-4d0f-9df6-875e862a1f8e")
+	)
+	(wire
+		(pts
 			(xy 52.07 104.14) (xy 52.07 116.84)
 		)
 		(stroke
@@ -6484,6 +6538,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 140.97) (xy 264.16 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b332db52-a6ec-430c-b1fa-ef8011ae74ff")
+	)
+	(wire
+		(pts
 			(xy 90.17 215.9) (xy 85.09 215.9)
 		)
 		(stroke
@@ -6534,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 116.84) (xy 351.79 116.84)
+			(xy 342.9 121.92) (xy 351.79 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6664,7 +6728,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 132.08 157.48)
+			(xy 132.08 134.62) (xy 132.08 140.97)
 		)
 		(stroke
 			(width 0.45)
@@ -6682,6 +6746,16 @@
 		)
 		(uuid "c00661d3-4635-4a55-a209-88779e808eee")
 	)
+	(wire
+		(pts
+			(xy 205.74 171.45) (xy 205.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f94930-3602-4fa7-8268-ba5152b972cb")
+	)
 	(polyline
 		(pts
 			(xy 130.81 21.59) (xy 130.81 54.61)
@@ -6691,16 +6765,6 @@
 			(type dash)
 		)
 		(uuid "c4290c2a-a107-4db6-b4e4-c7fe9f8ddca5")
-	)
-	(wire
-		(pts
-			(xy 337.82 119.38) (xy 337.82 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e4176b-2dec-43d0-b04e-5109d8b2b6a4")
 	)
 	(wire
 		(pts
@@ -6764,7 +6828,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 120.65) (xy 381 121.92)
+			(xy 378.46 115.57) (xy 378.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7032,6 +7096,16 @@
 		)
 		(uuid "e9512557-8fd7-4f0e-8a6f-e97e34bb567a")
 	)
+	(wire
+		(pts
+			(xy 340.36 116.84) (xy 351.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e0a69c-d4b2-4e03-8be9-d2155c62844d")
+	)
 	(polyline
 		(pts
 			(xy 199.39 66.04) (xy 201.93 68.58)
@@ -7154,7 +7228,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 163.83) (xy 205.74 175.26)
+			(xy 205.74 163.83) (xy 205.74 171.45)
 		)
 		(stroke
 			(width 0)
@@ -7193,7 +7267,7 @@
 		(uuid "feefd871-8c5d-4e7f-bc63-160d6ce48617")
 	)
 	(label "SDA"
-		(at 375.92 116.84 180)
+		(at 375.92 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7343,7 +7417,7 @@
 		(uuid "dcbcb003-af9a-47d7-8a2a-d05e94c2b577")
 	)
 	(label "SCL"
-		(at 342.9 116.84 0)
+		(at 342.9 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8425,6 +8499,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 158.75 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d801c3aa-f701-4634-8544-f7da49bc9643")
 		)
@@ -8519,6 +8604,17 @@
 			)
 		)
 		(property "LCSC" "C487461"
+			(at 166.37 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
 			(at 166.37 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -8947,6 +9043,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bebcf96-175d-4831-a4e5-57423dd2b4ed")
+		(property "Reference" "#FLG0103"
+			(at 130.175 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 138.176 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f31a32ff-f665-4997-a475-750c6398b8e1")
+		)
+		(instances
+			(project "Feeder"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "#FLG0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 151.13 259.08 0)
 		(unit 1)
@@ -9024,6 +9197,17 @@
 			)
 		)
 		(property "LCSC" "C487461"
+			(at 151.13 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
 			(at 151.13 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -9135,6 +9319,83 @@
 			(project "Feeder"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "H108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 381 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4bb8dcf2-df18-49fd-bd91-4cdb97e39e15")
+		(property "Reference" "#FLG0105"
+			(at 381 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 378.206 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 381 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c8f9ec6-52e4-41ec-a922-5b0d18ccb694")
+		)
+		(instances
+			(project "Feeder"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "#FLG0105")
 					(unit 1)
 				)
 			)
@@ -9322,6 +9583,17 @@
 			)
 		)
 		(property "LCSC" "C487461"
+			(at 271.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
 			(at 271.78 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -9608,6 +9880,17 @@
 			)
 		)
 		(property "LCSC" "C46971097"
+			(at 265.43 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 265.43 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10242,6 +10525,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 207.01 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8881ea38-4f48-4f48-8596-e69cbd127b95")
 		)
@@ -10260,6 +10554,7 @@
 	(symbol
 		(lib_id "Symbols:DGND")
 		(at 378.46 119.38 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10280,7 +10575,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 373.888 118.364 0)
+			(at 373.634 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10581,6 +10876,17 @@
 			)
 		)
 		(property "LCSC" "C487461"
+			(at 256.54 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
 			(at 256.54 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11795,8 @@
 	)
 	(symbol
 		(lib_id "Symbols:+12V_DGND")
-		(at 381 120.65 0)
+		(at 378.46 115.57 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11499,7 +11806,7 @@
 		(dnp no)
 		(uuid "8b1f3617-753d-485e-b6dd-067fc4bc542b")
 		(property "Reference" "#PWR0109"
-			(at 382.778 120.65 90)
+			(at 376.682 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +11817,7 @@
 			)
 		)
 		(property "Value" "+12V_DGND"
-			(at 371.856 120.904 0)
+			(at 371.094 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11520,7 +11827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.175 118.11 0)
+			(at 375.285 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11531,7 +11838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.175 118.11 0)
+			(at 375.285 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11542,7 +11849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V_DGND\" , power supply"
-			(at 381 120.65 0)
+			(at 378.46 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,6 +12329,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 199.39 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c371ae9-bc2c-4db0-a3ea-f104fb5d4e4f")
 		)
@@ -12109,6 +12427,83 @@
 			(project "Feeder"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 205.74 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ae03d72-8d58-4fdc-8961-f3a9008acc16")
+		(property "Reference" "#FLG0104"
+			(at 203.835 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 211.836 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 205.74 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "744a5b52-729e-4ba0-b312-67f63813bf83")
+		)
+		(instances
+			(project "Feeder"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "#FLG0104")
 					(unit 1)
 				)
 			)
@@ -12680,6 +13075,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 173.99 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "393ff9f9-09d3-44f8-bba6-2d3bab82a462")
 		)
@@ -13148,6 +13554,7 @@
 	(symbol
 		(lib_id "Symbols:DGND")
 		(at 340.36 119.38 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13168,7 +13575,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 345.44 118.364 0)
+			(at 345.44 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13573,8 +13980,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 359.41 119.38 0)
-		(mirror y)
+		(at 359.41 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13584,7 +13990,7 @@
 		(dnp no)
 		(uuid "c9b8756d-f483-46e4-bf3c-76d882274df9")
 		(property "Reference" "J101"
-			(at 358.14 114.3 0)
+			(at 358.394 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13594,7 +14000,7 @@
 			)
 		)
 		(property "Value" "PZ254V-22-06-A60-1500"
-			(at 358.14 113.03 0)
+			(at 358.14 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13649,6 +14055,17 @@
 			)
 		)
 		(property "LCSC" "C49056253"
+			(at 359.41 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 359.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13842,6 +14259,17 @@
 			)
 		)
 		(property "LCSC" "C487461"
+			(at 248.92 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rotation Offset" "180"
 			(at 248.92 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -14688,6 +15116,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 222.25 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af9f24b6-5d14-43a0-8bba-5375aecccc39")
 		)
@@ -14866,6 +15305,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" ""
+			(at 314.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2db8b2c6-afc4-4cf2-b431-d75e592a868e")
 		)
@@ -14970,6 +15420,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 214.63 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8265c8f5-43a7-435c-9276-196f266a4483")
 		)
@@ -15064,7 +15525,8 @@
 	)
 	(symbol
 		(lib_id "Symbols:+5V_DGND")
-		(at 337.82 119.38 0)
+		(at 340.36 115.57 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15074,7 +15536,7 @@
 		(dnp no)
 		(uuid "f27446ab-1ff4-41df-b05b-b5add9d6483c")
 		(property "Reference" "#PWR0108"
-			(at 339.598 119.38 90)
+			(at 338.582 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15085,7 +15547,7 @@
 			)
 		)
 		(property "Value" "+5V_DGND"
-			(at 347.472 120.65 0)
+			(at 346.71 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15095,7 +15557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.995 116.84 0)
+			(at 337.185 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15106,7 +15568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.995 116.84 0)
+			(at 337.185 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15117,7 +15579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V_DGND\" , power supply"
-			(at 337.82 119.38 0)
+			(at 340.36 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15347,6 +15809,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 264.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d7741c21-0b32-4415-8099-1a11c2f18d5b")
 		)
@@ -15357,6 +15830,83 @@
 			(project "Feeder"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "C118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 264.16 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f98a3d7b-2bd2-400c-adae-8abc67b27de1")
+		(property "Reference" "#FLG0106"
+			(at 262.255 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 255.524 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 264.16 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1186f9ea-c32b-4e33-a508-44fec9b85912")
+		)
+		(instances
+			(project "Feeder"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "#FLG0106")
 					(unit 1)
 				)
 			)

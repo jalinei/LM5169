@@ -2069,6 +2069,17 @@
 				)
 			)
 		)
+		(property "Rotation Offset" ""
+			(at 93.98 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0859c94f-47d0-4ea4-8fb2-19ad17b9ab66")
 		)
